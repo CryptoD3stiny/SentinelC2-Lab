@@ -41,3 +41,42 @@ Un script central (`auto_lab.py`) que:
 
 ## 📁 Estructura del Proyecto
 
+sentinelc2/
+├── auto_lab.py
+├── sentinelc2.py
+├── config.yaml
+├── c2/
+│ ├── server.py
+│ └── client.py
+├── detector/
+│ └── beacon_detector.py
+├── honeypot/
+│ └── tcp_honeypot.py
+├── logs/
+│ ├── c2.log
+│ ├── detections.log
+│ └── honeypot.log
+└── README.md
+
+
+---
+
+## ⚙️ Requisitos
+
+- Kali Linux / Linux
+- Python 3.9+
+- Librerías:
+  - `pyyaml`
+  - `rich` (opcional para futuras mejoras)
+
+Instalación:
+```bash
+pip3 install pyyaml rich
+
+🚀 Uso
+
+Ejecutar el laboratorio completo:
+
+python3 auto_lab.py
+
+
