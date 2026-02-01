@@ -1,0 +1,12 @@
+sentinelc2/
+├── src/
+│   ├── auto_lab.py
+│   ├── c2/
+│   │   ├── server.py
+│   │   └── client.py
+│   ├── detector/
+│   │   └── beacon_detector.py
+│   └── honeypot/
+│       └── tcp_honeypot.py
+├── config.yaml
+└── README.md
